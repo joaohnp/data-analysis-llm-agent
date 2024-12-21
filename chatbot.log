@@ -149,3 +149,12 @@ Tool Call: {'tool_call_id': 'call_BNrfo3QxesPmNOWqROfebX6s', 'role': 'tool', 'na
 })}
 HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 Translation file for en-GB not found. Using default translation en-US.
+Your app is available at http://localhost:8000
+Translation file for pt-BR not found. Using default translation en-US.
+Translated markdown file for pt-BR not found. Defaulting to chainlit.md.
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+User message: top 10 movies
+Assistant response: None
+Calling query_db with {'sql_query': 'SELECT title, director, year, rating, genres, runtime, language, imdb_score FROM movies LIMIT 10'}
+Tool Call: {'tool_call_id': 'call_sOAXvnl93SXWJaqCkC95j8aB', 'role': 'tool', 'name': 'query_db', 'content': '| title | director | year | rating | genres | runtime | language | imdb_score |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| 12 Angry Men | Sidney Lumet | 1957 | APPROVED | Crime, Drama | 96 | English | 8.9 |\n| 12 Years a Slave | Steve McQueen | 2013 | R | Biography, Drama, History | 134 | English | 8.1 |\n| 2001: A Space Odyssey | Stanley Kubrick | 1968 | G | Adventure, Sci-Fi | 149 | English, Russian | 8.3 |\n| 3 Idiots | Rajkumar Hirani | 2009 | PG-13 | Comedy, Drama | 170 | Hindi, English | 8.4 |\n| 8½ | Federico Fellini | 1963 | NOT RATED | Drama | 138 | Italian, French, English, German | 8.1 |\n| A Beautiful Mind | Ron Howard | 2001 | PG-13 | Biography, Drama | 135 | English | 8.2 |\n| A Clockwork Orange | Stanley Kubrick | 1971 | R | Crime, Drama, Sci-Fi | 136 | English | 8.3 |\n| A Separation | Asghar Farhadi | 2011 | PG-13 | Drama, Mystery | 123 | Persian | 8.3 |\n| A Wednesday | Neeraj Pandey | 2008 | NOT RATED | Crime, Drama, Mystery | 104 | Hindi, English | 8.2 |\n| Alien | Ridley Scott | 1979 | R | Horror, Sci-Fi | 116 | English | 8.5 |\n'}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
